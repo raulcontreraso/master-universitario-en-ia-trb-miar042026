@@ -75,8 +75,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,6 +181,6 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "7c7dcbe11cba5272",
+  "active": "6e12cb9bea68d9fa",
   "lastOpenFiles": []
 }
