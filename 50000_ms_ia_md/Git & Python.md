@@ -1712,3 +1712,403 @@ When someone clicks that link:
 
 
 
+To create and link your first repository on **GitLab**, follow these quick step-by-step instructions:
+
+  
+
+### Step 1: Create a New Repository on GitLab
+
+1. Log in to your [GitLab account](https://gitlab.com/).
+    
+      
+    
+2. In the top-right corner, click the **`+`** (plus) icon and select **New project/repository**.
+    
+      
+    
+3. Choose **Create blank project**.
+    
+      
+    
+4. Fill in your project details:
+    
+      
+    - **Project name:** (e.g., `master-universitario-en-ia-trb-miar042026` or whatever your project is named).
+        
+          
+        
+    - **Visibility Level:** Choose **Public** or **Private** based on your preference.
+        
+          
+        
+    - **Important:** **Uncheck** the box that says _"Initialize repository with a README"_ (leave the repository completely empty so you can push your existing local files without conflicts).
+        
+          
+        
+5. Click **Create project**.
+    
+      
+    
+
+### Step 2: Connect Your Local Folder to GitLab
+
+Open your terminal inside your project folder on your computer, and run the following commands one by one:
+
+  
+
+1. **Initialize Git (if not already done):**
+    
+      
+    
+    Bash
+    
+    ```
+    git init
+    ```
+    
+2. **Add all your project files and commit them:**
+    
+      
+    
+    Bash
+    
+    ```
+    git add .
+    ; git commit -m "Initial commit"
+    ```
+    
+3. **Link your local folder to your new GitLab repository URL:**
+    
+    _(Replace `YOUR_USERNAME` and `YOUR_REPO_NAME` with your actual GitLab details)_
+    
+      
+    
+    Bash
+    
+    ```
+    git remote add origin https://gitlab.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+    ```
+    
+4. **Push your code up to GitLab:**
+    
+    Bash
+    
+    ```
+    git branch -M main
+    ; git push -u origin main
+    ```
+
+
+---
+Yes, you heard correctly! That is a very popular and professional structure used by developers and engineers to organize their GitHub presence.
+
+  
+
+Here are the recommendations and clarifications for that setup, followed by templates for your README files.
+
+  
+
+### Clarification & Recommendations for Your GitHub Profile Setup
+
+1. **The Special Profile README Repo (`username/username`)**
+    
+      
+    - **What it is:** A public repository where the repository name is **exact matches your GitHub username** (e.g., `raulcontreraso/raulcontreraso`).
+        
+          
+        
+    - **Purpose:** GitHub automatically takes the `README.md` from this repository and displays it as the main profile page when people visit your overall GitHub profile URL.
+        
+          
+        
+    - **Recommendation:** Keep it clean, professional, and concise. Introduce who you are, your software engineering background, your primary technology stack (Python, JavaScript, etc.), and ways to contact you.
+        
+          
+        
+2. **The CV / Resume Repo (`username/cv`)**
+    
+      
+    - **What it is:** A dedicated repository to store your professional resume/CV (often written in Markdown or compiled via LaTeX/PDF generation).
+        
+          
+        
+    - **Purpose:** Makes it easy for recruiters or peers to view, download, or track changes to your CV version history.
+        
+          
+        
+3. **The Portfolio / Main Website Repo (`username/portfolio` or `username.github.io`)**
+    
+      
+    - **What it is:** A repository hosting your personal portfolio website or web application.
+        
+          
+        
+    - **Purpose:** If you name it exactly `username.github.io`, GitHub will automatically host it for free as a live website using GitHub Pages.
+        
+          
+        
+
+### Templates for Your Repositories (.md)
+
+#### 1. Profile README Template (`username/username`)
+
+_Create a repository named with your exact GitHub username and put this inside the `README.md`:_
+
+  
+
+Markdown
+
+```
+### Hi there 👋 I'm Raúl Contreras
+
+* Software Engineer | Data Science & AI Enthusiast
+* Based in Chile / Spain
+
+---
+
+### 🛠️ Tech Stack & Skills
+* **Languages:** Python, JavaScript, PHP, SQL
+* **Frameworks & Libraries:** React, Laravel, Pandas, NumPy, Scikit-Learn
+* **Databases & Tools:** PostgreSQL, SQLite, Git, Docker, VS Code
+
+---
+
+### 📊 GitHub Stats
+![Raul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=raulcontreraso&show_icons=true&theme=radical)
+
+---
+
+### 📫 Connect with me
+* **LinkedIn:** [Your Profile Link]
+* **Email:** your.email@example.com
+```
+
+#### 2. CV / Resume Repository Template (`username/cv`)
+
+_Create a repository named `cv` and put this inside the `README.md`:_
+
+  
+
+Markdown
+
+```
+# Professional Curriculum Vitae (CV)
+
+This repository contains my professional CV and resume documentation.
+
+* **Format:** Markdown / PDF
+* **Last Updated:** August 2026
+
+---
+
+## 🎓 Education
+* **Bachelor of Science in Software Engineering** | University URBE (Official degree validation in Universidad de Chile)
+* **Higher Technical Diploma in Computer Science** | College / CUNIBE
+
+---
+
+## 💼 Professional Summary
+Software Engineer specialized in full-stack web development and artificial intelligence integration. Experienced in designing decoupled applications, REST APIs, and data optimization scripts.
+
+---
+
+## 📄 Access Documents
+* View the latest compiled PDF version in this repository.
+```
+
+#### 3. Main Website / Portfolio Template (`username/portfolio` or `username.github.io`)
+
+_Create a repository for your personal website and put this inside the `README.md`:_
+
+  
+
+Markdown
+
+```
+# Personal Portfolio Website
+
+Welcome to the source code of my personal portfolio website, built to showcase my projects, skills, and professional background.
+
+---
+
+## 🚀 Live Demo
+You can view the live website here: [https://raulcontreraso.github.io](https://raulcontreraso.github.io)
+
+---
+
+## 🛠️ Built With
+* HTML5 / CSS3 / JavaScript or React
+* GitHub Pages for hosting
+
+---
+
+## ⚙️ Local Development
+To run this portfolio locally on your machine:
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/raulcontreraso/raulcontreraso.github.io.git](https://github.com/raulcontreraso/raulcontreraso.github.io.git)
+```
+
+2. Open the folder in your code editor or browser to view the static files.
+
+
+
+----
+You can put your web development roadmap in two ideal places depending on how you want to showcase it:
+
+  
+
+1. **In your Profile README (`raulcontreraso/raulcontreraso`):**
+    
+      
+    - **Why:** Putting a concise roadmap or a "Currently Learning / My Goals" section right on your main profile page shows visitors, recruiters, and peers that you are proactive, continuously upskilling, and focused on growth.
+        
+          
+        
+2. **In your Portfolio / Main Website Repo (`username.github.io` or `username/portfolio`):**
+    
+      
+    - **Why:** If you want to build an interactive page, blog post, or a dedicated guide showing your learning progression, milestones, and resources, housing it in your portfolio repository is a great choice.
+        
+
+### Roadmap Template (`.md`) to Add to Your Profile or Portfolio
+
+Markdown
+
+```
+## 🗺️ My Web Development & AI Roadmap
+
+Here is the structured path I am following to master full-stack web development and software engineering:
+
+### Phase 1: Foundations & Core Languages
+* [x] **HTML5 & CSS3:** Semantic markup, responsive layouts, Flexbox, and Grid.
+* [x] **JavaScript (ES6+):** DOM manipulation, asynchronous programming, and closures.
+* [x] **Git & Version Control:** Tracking changes, managing remotes, and branching workflows.
+
+### Phase 2: Frontend Development
+* [x] **Frontend Frameworks:** React component architecture, hooks, and state management.
+* [ ] **Modern Tooling:** Vite, package managers, and component styling systems.
+
+### Phase 3: Backend Development & Databases
+* [x] **PHP & Laravel:** Building MVC applications, routing, and controllers.
+* [x] **RESTful APIs:** Designing and consuming backend endpoints.
+* [x] **Databases:** Working with relational databases like PostgreSQL and SQLite.
+
+### Phase 4: Data Science & AI Integration
+* [x] **Python:** Core scripting, data manipulation with Pandas and NumPy.
+* [ ] **Optimization & Machine Learning:** Developing algorithms and integrating AI capabilities into web apps.
+```
+
+
+
+
+---
+
+To keep your main profile clean while still showcasing your detailed roadmap, you can create a separate file (e.g., `roadmap.md`) inside your `raulcontreraso/raulcontreraso` repository, and then **link to it** from your main `README.md`.
+
+  
+
+### Step 1: Create the Roadmap File
+
+Create a new file in your profile repository named **`roadmap.md`** and paste your roadmap content into it.
+
+  
+
+### Step 2: Link to it from your Main `README.md`
+
+In your main profile `README.md`, you can add a section with a Markdown link pointing to your `roadmap.md` file:
+
+  
+
+Markdown
+
+```
+## 🗺️ My Learning Roadmap
+
+I am continuously upskilling in software engineering, full-stack development, and artificial intelligence. 
+
+👉 **[Check out my complete, detailed Web Development & AI Roadmap here](./roadmap.md)**
+```
+
+### Alternative: Use an Anchor Link (Jump Link)
+
+If you prefer to keep everything inside the single main `README.md` file without managing multiple files, but want it hidden or structured lower down so it doesn't clutter the top of your profile, you can use HTML details tags or a jump link:
+
+Markdown
+
+```
+## 🗺️ My Learning Roadmap
+
+<details>
+<summary><b>Click to expand and view my full learning path & milestones 🚀</b></summary>
+
+### Phase 1: Foundations & Core Languages
+* [x] HTML5, CSS3, and JavaScript (ES6+)
+* [x] Git & Version Control workflows
+
+### Phase 2: Frontend & Backend
+* [x] React component architecture
+* [x] PHP & Laravel API development
+* [x] PostgreSQL & SQLite databases
+
+### Phase 3: AI & Data Science
+* [x] Python, Pandas, and NumPy
+* [ ] Optimization algorithms and machine learning integration
+
+</details>
+```
+
+
+---
+**Yes, exactly!**
+
+  
+
+When you host a repository on GitHub (like your `raulcontreraso/raulcontreraso` profile repository), GitHub automatically translates `.md` markdown files into formatted web pages.
+
+  
+
+When someone clicks that link:
+
+  
+
+1. GitHub treats `./roadmap.md` just like a normal webpage link.
+    
+      
+    
+2. It navigates the visitor to your `roadmap.md` file right inside GitHub.
+    
+      
+    
+3. GitHub automatically renders it nicely so they can read the full roadmap easily without looking at raw code.
+
+
+---
+
+
+**Yes, exactly!**
+
+  
+
+When you host a repository on GitHub (like your `raulcontreraso/raulcontreraso` profile repository), GitHub automatically translates `.md` markdown files into formatted web pages.
+
+  
+
+When someone clicks that link:
+
+  
+
+1. GitHub treats `./roadmap.md` just like a normal webpage link.
+    
+      
+    
+2. It navigates the visitor to your `roadmap.md` file right inside GitHub.
+    
+      
+    
+3. GitHub automatically renders it nicely so they can read the full roadmap easily without looking at raw code.
+
+
+
+
