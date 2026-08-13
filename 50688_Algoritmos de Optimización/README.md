@@ -1,6 +1,6 @@
 # Algoritmos de Optimización
 
-Desarrollar algoritmos con Diferentes técnicas 
+Desarrollar algoritmos con Diferentes técnicas .
 
 ---
 
