@@ -1,14 +1,11 @@
-# Project Title
+# Algoritmos de Optimización
 
-Brief description of what this project does and who it is for.
+Desarrollar algoritmos con Diferentes técnicas 
 
 ---
 
-## Features
+## Actividades
 
-* Feature 1
-* Feature 2
-* Feature 3
 * Desarrollar algoritmos con la técnica de búsqueda aleatoria
 * Desarrollar algoritmos con la técnica de búsqueda local
 * Desarrollar algoritmos con la técnica de recocido simulado(simulated annealing)
@@ -16,7 +13,7 @@ Brief description of what this project does and who it is for.
 
 ---
 
-## Technologies Used
+## Tecnologia Usada
 
 * **Language/Framework:** (Python)
 * **Database:** (None)
