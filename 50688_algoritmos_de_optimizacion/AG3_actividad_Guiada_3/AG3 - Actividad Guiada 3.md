@@ -3,7 +3,7 @@ AG3 - Actividad Guiada 3
 Desarrollar algoritmos con la técnica de búsqueda aleatoria
 Desarrollar algoritmos con la técnica de búsqueda local
 Desarrollar algoritmos con la técnica de recocido simulado(simulated annealing)
-Desarrollar algoritmos con la técnica de colonia de hormigas(no evaluable)
+04 Desarrollar algoritmos con la técnica de colonia de hormigas(no evaluable)
 
 
 NOTA: Si. el fichero no se descarga en la celda segunda, utilizar el fichero .tsp aquí adjunto.
